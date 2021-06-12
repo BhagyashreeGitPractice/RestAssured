@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Practice Suite">
+  <test name="Test Basics 1">
+      <classes>
+        <class name="restAssuredTesting.GetOperation"/>
+        <class name="restAssuredTesting.PostOperation"/>
+        </classes>
+   </test>
+   <test name ="Test Basics 2">
+      <classes>
+        <class name="restAssuredTesting.ComplexPayload"/>
+        <class name="restAssuredTesting.DataDrivenUsingParam"/>
+      </classes>
+  </test> 
+</suite> <!-- Suite -->
