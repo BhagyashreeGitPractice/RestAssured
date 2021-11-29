@@ -18,6 +18,7 @@ public void post() {
 	json.put("name", "morpheus");
 	json.put("job", "leader");
 	req.header("Content-Type","application/json");
+	req.body(json.toJSONString());
 	Response response = req.request(Method.POST);
 	System.out.println("getBody****************"+response.getBody().asString());
 	System.out.println("prettyPrint********************"+response.getBody().asPrettyString());
